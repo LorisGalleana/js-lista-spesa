@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frigorifero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spesa {
+    list-style: none;
+    font-size: 48px;
+}
+input {
+        transform: scale(2);
+        vertical-align: middle;
+        margin-right: 1vw;
+}

@@ -8,8 +8,9 @@ while (i < elencoSpesa.length) {
 
     let frigoriferoContent = 
     `
-        <li>${itemList}</li>
+        <li><input type="checkbox">${itemList}</li>
     `
     listaSpesa.innerHTML += frigoriferoContent;
     i++;
 }
+
